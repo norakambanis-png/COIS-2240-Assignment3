@@ -1,0 +1,10 @@
+null,null,null
+null,null,null
+null,null,null
+null,null,null
+null,null,null
+AAA111,George,RENT
+CCC333,George,RENT
+BBB222,Anne,RENT
+CCC333,George,RETURN
+CCC333,Anne,RENT
