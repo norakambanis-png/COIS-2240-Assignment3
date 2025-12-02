@@ -4,20 +4,15 @@ public class Car extends Vehicle implements Rentable {
         super(make, model, year);
     }
 
-    
-
-    
-    
-
     @Override
     public void rentVehicle() {
-        setStatus(VehicleStatus.Rented);
+        setStatus(Vehicle.VehicleStatus.Rented);
         System.out.println("Car " + getLicensePlate() + " has been rented.");
     }
 
     @Override
     public void returnVehicle() {
-        setStatus(VehicleStatus.Available);
+        setStatus(Vehicle.VehicleStatus.Available);
         System.out.println("Car " + getLicensePlate() + " has been returned.");
     }
 }
